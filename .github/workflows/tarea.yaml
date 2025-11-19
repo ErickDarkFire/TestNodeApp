@@ -6,4 +6,5 @@ jobs:
     steps:
       - run: echo "Tarea Dorx"
       - run: python --version
+      - uses: actions/checkout@v3
       - run: python Tarea.py
